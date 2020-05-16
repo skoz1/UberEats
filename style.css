@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/*-------Basic Set Up--------*/
+
+html,
+body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+/*-------Heading--------*/
+
+.header {
+    display: inline;
+    font-size: 500;
+    margin-top: 30px;
+    ;
+}
+
+.header span {
+    float: right;
+}
