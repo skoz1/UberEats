@@ -45,9 +45,7 @@ body {
     margin-right: 80px;
 }
 
-header {
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-image: url(/Images/sushi-image.jpg);
+.hero-text-box {
+    margin-top: 80px;
+    background-image: url(/Images/food.png);
 }
