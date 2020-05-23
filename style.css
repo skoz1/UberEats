@@ -23,29 +23,19 @@ body {
 }
 
 
+/*---------- Reusable Components---------*/
+
+.row {
+    max-width: 1140px;
+}
+
+
 /*---------Heading--------*/
 
-.alignleft {
-    font-weight: 200;
+.left {
     float: left;
-    margin-top: 30px;
-    margin-left: 80px;
 }
 
-.last-word {
-    font-weight: 500;
-    color: #48b900;
-}
-
-.alignright {
+.right {
     float: right;
-    font-weight: 200;
-    font-size: 18px;
-    margin-top: 35px;
-    margin-right: 80px;
-}
-
-.hero-text-box {
-    margin-top: 80px;
-    background-image: url(/Images/food.png);
 }
