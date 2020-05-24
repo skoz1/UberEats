@@ -7,7 +7,7 @@
 
 /*
     
-    Light green: #48b900
+    Melon:  #fa7b78
     
     */
 
@@ -24,10 +24,6 @@ body {
 
 
 /*---------- Reusable Components---------*/
-
-.row {
-    max-width: 1140px;
-}
 
 
 /*---------Header--------*/
@@ -47,4 +43,31 @@ body {
     font-weight: bold 200;
     font-size: 17px;
     padding: 30px 85px 0 0;
+}
+
+section {
+    clear: both;
+}
+
+.hero-text {
+    position: absolute;
+    top: 6.5em;
+    left: 5.5em;
+    font-size: 35px
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    float: right;
+    padding: 14px;
+    margin: 30px;
+    width: 121px;
+    height: 49px;
+    font-weight: 300;
+    font-size: 17px;
+    background-color: #000;
+    border: 1px solid #000;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, 0.2s color 0.2s;
 }
