@@ -16,12 +16,13 @@
             font-weight: 400;
             font-size: 30px;
             text-rendering: optimizeLegibility;
+            height: 80%;
         }
         /*---------- Reusable Components---------*/
         /*---------Header--------*/
         
         header {
-            position: static;
+            height: 80%;
         }
         
         .left {
@@ -40,10 +41,11 @@
         }
         
         .hero-image {
-            background-image: url(/Doodle\ Food\ Baby\ Announcement\ Facebook\ Cover.jpg) no-repeat;
-            height: 1000%;
-            background: center;
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
             background-size: cover;
+            background-image: url(/Images/Restaurant\ and\ Food\ Catering\ Photo\ Business\ Card.pdf)
         }
         
         .hero-text {
