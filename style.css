@@ -1,71 +1,84 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    /*
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /*
     
     Melon:  #fa7b78
     
     */
-    /*-------Basic Set Up-----*/
-    
-    html,
-    body {
-        font-family: 'Poppins', 'Arial', sans-serif;
-        font-weight: 400;
-        font-size: 30px;
-        text-rendering: optimizeLegibility;
-    }
-    /*---------- Reusable Components---------*/
-    /*---------Header--------*/
-    
-    header {
-        position: static;
-    }
-    
-    .left {
-        float: left;
-    }
-    
-    #Eats {
-        font-weight: bold;
-        color: #fa7b78;
-    }
-    
-    .right {
-        float: right;
-        font-weight: bold 200;
-        font-size: 17px;
-    }
-    
-    .hero-image {
-        background-image: url(/Doodle\ Food\ Baby\ Announcement\ Facebook\ Cover.jpg) no-repeat;
-        height: 1000%;
-        background: center;
-        background-size: cover;
-    }
-    
-    .hero-text {
-        position: absolute;
-        top: 6.5em;
-        left: 12em;
-        font-size: 35px;
-    }
-    
-    .btn {
-        display: inline-block;
-        text-align: center;
-        float: right;
-        position: sticky;
-        padding: 14px;
-        margin: 30px;
-        width: 121px;
-        height: 49px;
-        font-weight: 300;
-        font-size: 17px;
-        background-color: #000;
-        border: 1px solid #000;
-        color: #fff;
-        transition: background-color 0.2s, border 0.2s, 0.2s color 0.2s;
-    }
+        /*-------Basic Set Up-----*/
+        
+        html,
+        body {
+            font-family: 'Poppins', 'Arial', sans-serif;
+            font-weight: 400;
+            font-size: 30px;
+            text-rendering: optimizeLegibility;
+        }
+        /*---------- Reusable Components---------*/
+        /*---------Header--------*/
+        
+        header {
+            position: static;
+        }
+        
+        .left {
+            float: left;
+        }
+        
+        #Eats {
+            font-weight: bold;
+            color: #fa7b78;
+        }
+        
+        .right {
+            float: right;
+            font-weight: bold 200;
+            font-size: 17px;
+        }
+        
+        .hero-image {
+            background-image: url(/Doodle\ Food\ Baby\ Announcement\ Facebook\ Cover.jpg) no-repeat;
+            height: 1000%;
+            background: center;
+            background-size: cover;
+        }
+        
+        .hero-text {
+            position: absolute;
+            top: 6.5em;
+            left: 12em;
+            font-size: 35px;
+        }
+        
+        .btn {
+            display: inline-block;
+            text-align: center;
+            float: right;
+            position: sticky;
+            padding: 12px;
+            margin: 31px 0px 0px 0px;
+            width: 121px;
+            height: 45px;
+            font-weight: 300;
+            font-size: 17px;
+            background-color: #000;
+            color: #fff;
+            transition: background-color 0.2s, 0.2s color 0.2s;
+        }
+        
+        .btn:hover {
+            background-color: grey;
+        }
+        
+        #delivery-address {
+            padding: 20px;
+            margin: 35px 0px 0px 0px;
+            font-size: 20px;
+            font-weight: 200;
+            width: 500px;
+            height: 20px;
+            box-shadow: 1px 1px #888888;
+        }
