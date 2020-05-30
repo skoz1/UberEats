@@ -46,7 +46,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         position: static;
-        background-image: linear-gradient(rgba(251, 251, 251, 0.447), rgba(140, 134, 134, 0.18)), url(Images/adult-1867769_1920.jpg)
+        background-image: linear-gradient(rgba(251, 251, 251, 0.447), rgba(0, 0, 0, 0)), url(Images/adult-1867769_1920.jpg)
     }
     
     .hero-text {
@@ -82,8 +82,8 @@
     }
     
     #delivery-address {
-        padding: 20px;
-        margin: 35px 0px 0px 0px;
+        padding: 20px 20px 20px 50px;
+        margin: 35px 0px 0px -40px;
         font-size: 20px;
         font-weight: 200;
         color: black;
@@ -91,4 +91,10 @@
         height: 20px;
         box-shadow: 1px 1px #888888;
         background-color: white;
+    }
+    
+    ion-icon {
+        position: relative;
+        top: 25px;
+        left: 10px;
     }
