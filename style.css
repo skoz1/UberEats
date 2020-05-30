@@ -22,7 +22,7 @@
         /*---------Header--------*/
         
         header {
-            padding: 60px;
+            padding: 27px 75px 0px 76px;
         }
         
         .flex {
@@ -36,8 +36,8 @@
         }
         
         #Sign-In {
-            font-weight: 200;
-            font-size: 20px;
+            font-weight: bold;
+            font-size: 15px;
         }
         
         .hero-image {
