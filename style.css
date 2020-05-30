@@ -1,86 +1,94 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        /*
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /*
     
-    Melon:  #fa7b78
+    Green:  #5cc500
     
     */
-        /*-------Basic Set Up-----*/
-        
-        html,
-        body {
-            font-family: 'Poppins', 'Arial', sans-serif;
-            font-weight: 400;
-            font-size: 30px;
-            text-rendering: optimizeLegibility;
-            height: 80%;
-        }
-        /*---------- Reusable Components---------*/
-        /*---------Header--------*/
-        
-        header {
-            padding: 27px 75px 0px 76px;
-        }
-        
-        .flex {
-            display: flex;
-            justify-content: space-between;
-        }
-        
-        #Eats {
-            font-weight: bold;
-            color: #fa7b78;
-        }
-        
-        #Sign-In {
-            font-weight: bold;
-            font-size: 15px;
-        }
-        
-        .hero-image {
-            height: 100vh;
-            width: 100vh;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-image: url(/Images/Restaurant\ and\ Food\ Catering\ Photo\ Business\ Card.pdf)
-        }
-        
-        .hero-text {
-            position: absolute;
-            top: 6.5em;
-            left: 12em;
-            font-size: 35px;
-        }
-        
-        .btn {
-            display: inline-block;
-            text-align: center;
-            float: right;
-            position: sticky;
-            padding: 12px;
-            margin: 31px 0px 0px 0px;
-            width: 121px;
-            height: 45px;
-            font-weight: 300;
-            font-size: 17px;
-            background-color: #000;
-            color: #fff;
-            transition: background-color 0.2s, 0.2s color 0.2s;
-        }
-        
-        .btn:hover {
-            background-color: grey;
-        }
-        
-        #delivery-address {
-            padding: 20px;
-            margin: 35px 0px 0px 0px;
-            font-size: 20px;
-            font-weight: 200;
-            width: 500px;
-            height: 20px;
-            box-shadow: 1px 1px #888888;
-        }
+    /*-------Basic Set Up-----*/
+    
+    body,
+    html {
+        font-family: 'Poppins', 'Arial', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        text-rendering: optimizeLegibility;
+        height: 100%;
+    }
+    /*---------- Reusable Components---------*/
+    /*---------Header--------*/
+    
+    header {
+        padding: 27px 75px 20px 76px;
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #Eats {
+        font-weight: bold;
+        color: #5cc500;
+    }
+    
+    #Sign-In {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .hero-image {
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: static;
+        background-image: linear-gradient(rgba(251, 251, 251, 0.447), rgba(140, 134, 134, 0.18)), url(Images/adult-1867769_1920.jpg)
+    }
+    
+    .hero-text {
+        position: absolute;
+        top: 7em;
+        left: 2em;
+        font-size: 35px;
+    }
+    
+    #Uber2 {
+        font-weight: bold;
+        font-size: 50px;
+    }
+    
+    .btn {
+        display: inline-block;
+        text-align: center;
+        float: right;
+        position: sticky;
+        padding: 12px;
+        margin: 35px 0px 0px 0px;
+        width: 120px;
+        height: 40px;
+        font-weight: 300;
+        font-size: 17px;
+        background-color: #000;
+        color: #fff;
+        transition: background-color 0.2s, 0.2s color 0.2s;
+    }
+    
+    .btn:hover {
+        background-color: grey;
+    }
+    
+    #delivery-address {
+        padding: 20px;
+        margin: 35px 0px 0px 0px;
+        font-size: 20px;
+        font-weight: 200;
+        color: black;
+        width: 450px;
+        height: 20px;
+        box-shadow: 1px 1px #888888;
+        background-color: white;
+    }
