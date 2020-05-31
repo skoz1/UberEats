@@ -1,100 +1,105 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    /*
-    
-    Green:  #5cc500
-    
-    */
-    /*-------Basic Set Up-----*/
-    
-    body,
-    html {
-        font-family: 'Poppins', 'Arial', sans-serif;
-        font-weight: 400;
-        font-size: 30px;
-        text-rendering: optimizeLegibility;
-        height: 100%;
-    }
-    /*---------- Reusable Components---------*/
-    /*---------Header--------*/
-    
-    header {
-        padding: 27px 75px 20px 76px;
-    }
-    
-    .flex {
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    #Eats {
-        font-weight: bold;
-        color: #5cc500;
-    }
-    
-    #Sign-In {
-        font-weight: bold;
-        font-size: 15px;
-    }
-    
-    .hero-image {
-        height: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: static;
-        background-image: linear-gradient(rgba(251, 251, 251, 0.447), rgba(0, 0, 0, 0)), url(Images/adult-1867769_1920.jpg)
-    }
-    
-    .hero-text {
-        position: absolute;
-        top: 7em;
-        left: 2em;
-        font-size: 35px;
-    }
-    
-    #Uber2 {
-        font-weight: bold;
-        font-size: 50px;
-    }
-    
-    .btn {
-        display: inline-block;
-        text-align: center;
-        float: right;
-        position: sticky;
-        padding: 12px;
-        margin: 35px 0px 0px 0px;
-        width: 120px;
-        height: 40px;
-        font-weight: 300;
-        font-size: 17px;
-        background-color: #000;
-        color: #fff;
-        transition: background-color 0.2s, 0.2s color 0.2s;
-    }
-    
-    .btn:hover {
-        background-color: grey;
-    }
-    
-    #delivery-address {
-        padding: 20px 20px 20px 50px;
-        margin: 35px 0px 0px -40px;
-        font-size: 20px;
-        font-weight: 200;
-        color: black;
-        width: 450px;
-        height: 20px;
-        box-shadow: 1px 1px #888888;
-        background-color: white;
-    }
-    
-    ion-icon {
-        position: relative;
-        top: 25px;
-        left: 10px;
-    }
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        /*
+    Green:  #5cc500 
+*/
+        /*-------Basic Set Up-----*/
+        
+        body {
+            font-family: 'Poppins', 'Arial', sans-serif;
+            text-rendering: optimizeLegibility;
+        }
+        /*---------Header--------*/
+        
+        header {
+            margin: 25px 75px 20px 75px;
+        }
+        
+        .container {
+            display: flex;
+        }
+        
+        .logo {
+            font-size: 30px;
+        }
+        
+        span {
+            font-weight: bold;
+            color: #5cc500;
+            font-size: 30px;
+            padding-left: 5px;
+        }
+        
+        .Sign-In {
+            margin-left: auto;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-right: 20px;
+        }
+        
+        .hero-image {
+            position: relative;
+            background-size: cover;
+            height: 75vh;
+            background-repeat: no-repeat;
+            background-image: linear-gradient(rgba(251, 251, 251, 0.447), rgba(0, 0, 0, 0)), url(Images/adult-1867769_1920.jpg)
+        }
+        
+        .hero-text {
+            position: absolute;
+            width: 100%;
+            top: 200px;
+            left: 70px;
+            font-size: 35px;
+        }
+        
+        #delivery-address {
+            padding: 20px 20px 20px 50px;
+            margin: 8px -8px 0px -40px;
+            font-size: 20px;
+            font-weight: 200;
+            color: black;
+            width: 490px;
+            height: 20px;
+            box-shadow: 1px 1px #888888;
+            background-color: white;
+        }
+        
+        .btn {
+            display: inline-block;
+            position: relative;
+            padding: 12px;
+            margin: 30px 0px 0px 0px;
+            width: 108px;
+            height: 41px;
+            font-weight: 300;
+            font-size: 17px;
+            background-color: #000;
+            color: #fff;
+            transition: background-color 0.2s, 0.2s color 0.2s;
+        }
+        
+        .btn:hover {
+            background-color: grey;
+        }
+        
+        ion-icon {
+            position: relative;
+            top: 12px;
+            left: 10px;
+        }
+        /*---------Food Delivery--------*/
+        
+        .row {
+            font-weight: 400;
+            width: 500px;
+        }
+        
+        h3 {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
