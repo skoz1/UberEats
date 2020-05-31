@@ -94,8 +94,29 @@
         /*---------Food Delivery--------*/
         
         .row {
-            font-weight: 400;
-            width: 500px;
+            margin: 50px 20px 50px 70px;
+            display: flex;
+        }
+        
+        .food-delivery {
+            font-size: 25px;
+        }
+        
+        .arrows {
+            margin-left: auto;
+            margin-right: 70px;
+        }
+        
+        .arrow-left {
+            width: 108px;
+            height: 41px;
+            background-color: black;
+        }
+        
+        .arrow-right {
+            border-radius: 60%;
+            padding: 10px 10px 10px 10px;
+            background-color: black;
         }
         
         h3 {
