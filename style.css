@@ -1,126 +1,121 @@
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        /*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*
     Green:  #5cc500 
 */
-        /*-------Basic Set Up-----*/
-        
-        body {
-            font-family: 'Poppins', 'Arial', sans-serif;
-            text-rendering: optimizeLegibility;
-        }
-        /*---------Header--------*/
-        
-        header {
-            margin: 25px 75px 20px 75px;
-        }
-        
-        .container {
-            display: flex;
-        }
-        
-        .logo {
-            font-size: 30px;
-        }
-        
-        span {
-            font-weight: bold;
-            color: #5cc500;
-            font-size: 30px;
-            padding-left: 5px;
-        }
-        
-        .Sign-In {
-            margin-left: auto;
-            font-weight: bold;
-            margin-top: 10px;
-            margin-right: 20px;
-        }
-        
-        .hero-image {
-            position: relative;
-            background-size: cover;
-            height: 75vh;
-            background-repeat: no-repeat;
-            background-image: linear-gradient(rgba(251, 251, 251, 0.447), rgba(0, 0, 0, 0)), url(Images/adult-1867769_1920.jpg)
-        }
-        
-        .hero-text {
-            position: absolute;
-            width: 100%;
-            top: 200px;
-            left: 70px;
-            font-size: 35px;
-        }
-        
-        #delivery-address {
-            padding: 20px 20px 20px 50px;
-            margin: 8px -8px 0px -40px;
-            font-size: 20px;
-            font-weight: 200;
-            color: black;
-            width: 490px;
-            height: 20px;
-            box-shadow: 1px 1px #888888;
-            background-color: white;
-        }
-        
-        .btn {
-            display: inline-block;
-            position: relative;
-            padding: 12px;
-            margin: 30px 0px 0px 0px;
-            width: 108px;
-            height: 41px;
-            font-weight: 300;
-            font-size: 17px;
-            background-color: #000;
-            color: #fff;
-            transition: background-color 0.2s, 0.2s color 0.2s;
-        }
-        
-        .btn:hover {
-            background-color: grey;
-        }
-        
-        ion-icon {
-            position: relative;
-            top: 12px;
-            left: 10px;
-        }
-        /*---------Food Delivery--------*/
-        
-        .row {
-            margin: 50px 20px 50px 70px;
-            display: flex;
-        }
-        
-        .food-delivery {
-            font-size: 25px;
-        }
-        
-        .arrows {
-            margin-left: auto;
-            margin-right: 70px;
-        }
-        
-        .arrow-left {
-            width: 108px;
-            height: 41px;
-            background-color: black;
-        }
-        
-        .arrow-right {
-            border-radius: 60%;
-            padding: 10px 10px 10px 10px;
-            background-color: black;
-        }
-        
-        h3 {
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
+
+
+/*-------Basic Set Up-----*/
+
+body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    text-rendering: optimizeLegibility;
+}
+
+.container {
+    display: flex;
+}
+
+
+/*---------Header--------*/
+
+header {
+    margin: 25px 75px 20px 75px;
+}
+
+.logo {
+    font-size: 30px;
+}
+
+#eats {
+    font-weight: bold;
+    color: #5cc500;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+.Sign-In {
+    margin-left: auto;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.hero-image {
+    position: relative;
+    background-size: cover;
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(251, 251, 251, 0.447), rgba(0, 0, 0, 0)), url(Images/adult-1867769_1920.jpg)
+}
+
+.hero-text {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    left: 70px;
+    font-size: 35px;
+}
+
+#delivery-address {
+    padding: 20px 20px 20px 50px;
+    margin: 8px -8px 0px -40px;
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    width: 490px;
+    height: 20px;
+    box-shadow: 1px 1px #888888;
+    background-color: white;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    padding: 12px;
+    margin: 30px 0px 0px 0px;
+    width: 108px;
+    height: 41px;
+    font-weight: 300;
+    font-size: 17px;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.2s, 0.2s color 0.2s;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.navigate {
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+
+/*---------Food Delivery--------*/
+
+.row {
+    margin: 50px 20px 50px 70px;
+}
+
+.food-delivery {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.arrow-left {
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.527);
+}
+
+.arrow-right {
+    border-radius: 50%;
+    background-color: rgba(220, 220, 220, 0.527);
+}
