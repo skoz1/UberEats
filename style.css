@@ -45,14 +45,20 @@ h1 {
     padding-bottom: 20px;
 }
 
-#hero-image {
-    position: static;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-image: linear-gradient(rgba(251, 251, 251, 0.447), rgba(0, 0, 0, 0)), url(Images/adult-1867769_1920.jpg)
+#hero-image-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e78e76;
 }
 
-.hero-text {
+.banner {
+    position: static;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 500px;
+}
+
+#hero-text {
     position: absolute;
     width: 100%;
     top: 200px;
