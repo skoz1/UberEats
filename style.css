@@ -17,39 +17,37 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-.container {
-    display: flex;
-}
-
 
 /*---------Header--------*/
 
-header {
-    margin: 25px 75px 20px 75px;
+#nav-bar {
+    margin: 25px 75px 10px 75px;
+    display: flex;
 }
 
-.logo {
+h1 {
     font-size: 30px;
+    font-weight: normal;
 }
 
 #eats {
     font-weight: bold;
     color: #5cc500;
-    font-size: 30px;
     padding-left: 5px;
 }
 
-.Sign-In {
+#Sign-In {
     margin-left: auto;
     font-weight: bold;
     margin-top: 10px;
     margin-right: 20px;
+    float: right;
+    padding-bottom: 20px;
 }
 
-.hero-image {
-    position: relative;
+#hero-image {
+    position: static;
     background-size: cover;
-    height: 75vh;
     background-repeat: no-repeat;
     background-image: linear-gradient(rgba(251, 251, 251, 0.447), rgba(0, 0, 0, 0)), url(Images/adult-1867769_1920.jpg)
 }

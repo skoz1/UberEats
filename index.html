@@ -3,8 +3,6 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="/css/destyle.css">
-    <link rel="stylesheet" type="text/css" href="/css/960_12_col.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
     <title>Uber Eats</title>
 </head>
@@ -12,24 +10,25 @@
 <body>
 
     <header>
-        <div class="container">
-            <div class="logo">
+        <div id="nav-bar">
+            <div id="logo">
                 <h1>Uber
                     <span id="eats">Eats</span></h1>
             </div>
-            <div class="Sign-In">
+            <div id="Sign-In">
                 <a href="#">Sign In</a>
             </div>
         </div>
     </header>
-    <main role="hero-image" class="hero-image">
-        <div class="hero-text">
-            <h1>Your favorite food, delivered with Uber</h1>
+    <div id="hero-image">
+        <div id="hero-text">
+            <h2>Your favorite food, delivered with Uber</h2>
             <ion-icon name="navigate-circle-outline" class="navigate"></ion-icon>
             <input type="text" name="delivery address" id="delivery-address" placeholder="Enter delivery address " required>
             <a class="btn" href="#">Find Food</a>
         </div>
-    </main>
+    </div>
+
     <section class="row">
         <div class="container">
             <div class="food-delivery">
