@@ -115,20 +115,38 @@
                 /*---------Food Delivery--------*/
                 
                 .row {
-                    margin: 50px 20px 50px 70px;
+                    margin: 70px 20px 50px 70px;
                 }
                 
-                .food-delivery {
+                h3 {
                     font-size: 25px;
                     font-weight: 400;
                 }
                 
+                #food-container {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .arrows {
+                    display: flex;
+                    margin-right: 50px;
+                }
+                
                 .arrow-left {
+                    margin: 3px;
                     border-radius: 50%;
+                    width: 40px;
+                    padding: 0 16px;
+                    font-size: 28px;
                     background-color: rgba(220, 220, 220, 0.527);
                 }
                 
                 .arrow-right {
+                    margin: 3px;
                     border-radius: 50%;
+                    width: 40px;
+                    padding: 0 17px;
+                    font-size: 28px;
                     background-color: rgba(220, 220, 220, 0.527);
                 }
