@@ -212,6 +212,9 @@
                                             overflow: hidden;
                                             white-space: nowrap;
                                             letter-spacing: .5px;
+                                            border-top: 1px solid rgb(220, 220, 220);
+                                            margin-top: 10px;
+                                            padding-top: 10px;
                                         }
                                         
                                         .number {
